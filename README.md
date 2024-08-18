@@ -162,9 +162,10 @@ You can remove old files as follows.
     [install FO4VR on another drive as explained in Steam's help
     pages](https://help.steampowered.com/en/faqs/view/4BD4-4528-6B2E-8327).
     For performance reasons, you should prefer installing on an SSD.
-  * If you don't want to or cannot put FO4VR on another drive,
-    [move your entire Steam installation to another directory as explain in Steam's help
+  * If you don't want to or cannot put FO4VR on another drive, either:
+    * [Move your entire Steam installation to another directory as explain in Steam's help
     pages](https://help.steampowered.com/en/faqs/view/4BD4-4528-6B2E-8327).
+    * Use [this library setup tool](https://github.com/LostDragonist/steam-library-setup-tool/releases) to create an extra library folder on your drive that already has one. Steam restricts this for some reason.
     Personally, I went for `C:\Users\[username]\Steam\`.
   * No, there is no simpler way.
     Yes, this is required.
