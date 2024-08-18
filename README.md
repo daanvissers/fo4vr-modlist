@@ -255,7 +255,7 @@ You will download those, and then overwrite the files you copied earlier.
    After each command, go to this `[path]` in File Explorer, and copy the `Data` directory into `[fo4vr_dir]`,
    overwriting files when prompted.
 4. In MO2, on the right-hand side, go to the tab "Plugins", find the `.esm` files at the top of the list, and make sure
-   all `.esm` files are enabled using the respective checkboxes.
+   all `.esm` files are enabled using the respective checkboxes. If the `esm` files do not appear, you might need to navigate to the "Data" tab click "Refresh".
 
 
 
@@ -636,6 +636,7 @@ These mods fix bugs, either in the base game or in other mods.
    Fixes engine bugs and adds a crash logger.
 6. **[Buffout 4 NG with PDB support](https://www.nexusmods.com/fallout4/mods/64880)** (v1.31.1) <sub>![required]</sub>  
    Same as above, but for VR.
+   * **Note:** You can ignore the listed dependencies.
 7. **[Multiple Floors Sandboxing](https://www.nexusmods.com/fallout4/mods/15608)** (v1.0) <sub>![recommended]</sub>  
    In locations with multiple storeys, NPCs walk only on the ground storey.
    This mod fixes that behaviour so NPCs walk on all storeys.
