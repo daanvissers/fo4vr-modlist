@@ -159,14 +159,17 @@ You can remove old files as follows.
     Doing so may result in specific mods/tools unexpectedly failing, because Windows doesn't like it when software
     changes things in `Program Files (x86)`.
   * If you're fine with not putting FO4VR on your `C:\` drive,
-    [install FO4VR on another drive as explained in Steam's help
+    [install FO4VR on another drive as explained on Steam's help
     pages](https://help.steampowered.com/en/faqs/view/4BD4-4528-6B2E-8327).
     For performance reasons, you should prefer installing on an SSD.
-  * If you don't want to or cannot put FO4VR on another drive, either:
-    * [Move your entire Steam installation to another directory as explain in Steam's help
-    pages](https://help.steampowered.com/en/faqs/view/4BD4-4528-6B2E-8327).
-    * Use [this library setup tool](https://github.com/LostDragonist/steam-library-setup-tool/releases) to create an extra library folder on your drive that already has one. Steam restricts this for some reason.
-    Personally, I went for `C:\Users\[username]\Steam\`.
+  * If you don't want to or cannot put FO4VR on another drive, note that Steam supports only a single library per drive.
+    Therefore, your only options are:
+    * [Move your entire Steam installation to another directory as explained on Steam's help
+      pages](https://help.steampowered.com/en/faqs/view/4BD4-4528-6B2E-8327).
+    * Use the unofficial [Steam library setup tool](https://github.com/LostDragonist/steam-library-setup-tool/releases)
+      to create a second library folder on your `C:\` drive anyway.
+      Use this tool at your own risk; Steam does not officially support this tool.
+  * Personally, I chose to move my single Steam library to `C:\Users\[username]\Steam\`.
   * No, there is no simpler way.
     Yes, this is required.
 * **Fallout 4 with all DLC** (v1.10.163) <sub>![recommended]</sub>
@@ -255,7 +258,8 @@ You will download those, and then overwrite the files you copied earlier.
    After each command, go to this `[path]` in File Explorer, and copy the `Data` directory into `[fo4vr_dir]`,
    overwriting files when prompted.
 4. In MO2, on the right-hand side, go to the tab "Plugins", find the `.esm` files at the top of the list, and make sure
-   all `.esm` files are enabled using the respective checkboxes. If the `esm` files do not appear, you might need to navigate to the "Data" tab click "Refresh".
+   all `.esm` files are enabled using the respective checkboxes.
+   If the `esm` files do not appear, you might need to navigate to the "Data" tab and click "Refresh".
 
 
 
@@ -1247,6 +1251,9 @@ In chronological order of contribution:
   instructions](https://github.com/FWDekker/fo4vr-modlist/issues/16)!
 * Thanks to [Nathaniel Hartlen](https://github.com/crazysmile11012) for [suggesting adding instructions on how to 
   download non-VR DLC without installing the full game](https://github.com/FWDekker/fo4vr-modlist/issues/22)!
+* Thanks to [Daan Vissers](https://github.com/daanvissers) for [mentioning the Steam library setup tool, clarifying
+  unclarities](https://github.com/FWDekker/fo4vr-modlist/pull/26) and [several other
+  suggestions](https://github.com/FWDekker/fo4vr-modlist/issues/25)!
 
 If I should add, remove, or change anything here, just
 [open an issue](https://github.com/FWDekker/fo4vr-modlist/issues/new) or [email me](https://fwdekker.com/about/)!
